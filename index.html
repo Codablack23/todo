@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS intro</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <main>
+    <form class="add-todo-form">
+        <input type="text" required name="todo" class="add-todo" placeholder="Add a new Task">
+    </form>
+    <div class="tab-container">
+        <ul class="tab">
+            <li class="tab" id="all">All</li>
+            <li class="tab" id="active">Active</li>
+            <li class="tab" id="completed">Completed</li>
+        </ul>
+        <button class="clear-all">Clear All</button>
+    </div>
+    <div class="content">
+        <div class="todo-list">
+           <div class="todo-item">
+             <input type="checkbox" class="todo-checkbox">
+             <p class="todo">Hello world</p>
+           </div>
+        </div>
+        <aside class="content-sidebar">
+            <p><i>Edit</i></p>
+            <p><i>Delete</i></p>
+        </aside>
+    </div>
+  </main>
+<script src="./index.js"></script>
+</body>
+</html>
